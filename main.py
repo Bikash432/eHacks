@@ -1,5 +1,5 @@
 import pandas as pd
 
-data=pd.read_csv('dataset.csv')
+data=pd.read_csv('netflix_titles.csv')
 
 print(data)
