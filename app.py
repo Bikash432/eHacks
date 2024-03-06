@@ -28,7 +28,7 @@ def fetch_poster(movie_name):
     url = "https://api.themoviedb.org/3/search/movie"
     params = {
         "query": movie_name,
-        "api_key": "1c827bec84375d8eab8f7bd655d17749"
+        "api_key": "API_KEY_HERE"
     }
     response = requests.get(url, params=params)
     data = response.json()
